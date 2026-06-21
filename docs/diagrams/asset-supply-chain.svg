@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Asset supply chain</title>
+  <desc id="desc">A diagram showing how NiceChunk public media assets move from source captures and generated references into product pages, player setup, and future manifest-driven asset checks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081018"/>
+      <stop offset="1" stop-color="#15120d"/>
+    </linearGradient>
+    <style>
+      .label{font:800 12px Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;fill:#90ff1a}
+      .title{font:850 42px Inter,ui-sans-serif,system-ui,sans-serif;fill:#f3f8ff}
+      .copy{font:500 17px Inter,ui-sans-serif,system-ui,sans-serif;fill:#b8c7d4}
+      .card{fill:rgba(255,255,255,.06);stroke:rgba(255,255,255,.16);stroke-width:1.2;rx:16}
+      .head{font:800 19px Inter,ui-sans-serif,system-ui,sans-serif;fill:#f3f8ff}
+      .small{font:600 13px Inter,ui-sans-serif,system-ui,sans-serif;fill:#bdd0df}
+      .mono{font:750 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#f7d98f}
+      .wire{stroke:#8fdcff;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="220" cy="612" r="280" fill="#00c2ff" opacity=".08"/>
+  <circle cx="1060" cy="120" r="260" fill="#83ff00" opacity=".08"/>
+  <text x="70" y="78" class="label">PUBLIC ASSET REPOSITORY</text>
+  <text x="70" y="132" class="title">Media assets are product dependencies.</text>
+  <text x="70" y="168" class="copy">The repository isolates visual files from protocol code while keeping public product references reviewable.</text>
+
+  <rect x="76" y="242" width="266" height="300" class="card"/>
+  <text x="106" y="286" class="head">Source families</text>
+  <text x="106" y="326" class="small">product captures</text>
+  <text x="106" y="356" class="small">player-set views</text>
+  <text x="106" y="386" class="small">generated character references</text>
+  <text x="106" y="416" class="small">brand and icon media</text>
+  <text x="106" y="456" class="mono">p_d/</text>
+  <text x="106" y="484" class="mono">public/media/</text>
+
+  <rect x="418" y="210" width="442" height="364" class="card"/>
+  <text x="452" y="258" class="head">Review boundary</text>
+  <text x="452" y="294" class="small">Large binary changes stay out of code-heavy repos.</text>
+  <text x="452" y="326" class="small">Feature pages can reference exact public filenames.</text>
+  <text x="452" y="358" class="small">Future manifests can record dimensions and intent.</text>
+  <g transform="translate(486 408)">
+    <rect width="86" height="86" rx="12" fill="#d9f2ff"/>
+    <rect x="112" width="86" height="86" rx="12" fill="#8fdcff"/>
+    <rect x="224" width="86" height="86" rx="12" fill="#83ff00"/>
+  </g>
+
+  <rect x="936" y="242" width="266" height="300" class="card"/>
+  <text x="966" y="286" class="head">Consumers</text>
+  <text x="966" y="326" class="small">web entry pages</text>
+  <text x="966" y="356" class="small">wallet and login flows</text>
+  <text x="966" y="386" class="small">player setup previews</text>
+  <text x="966" y="416" class="small">forging and item pages</text>
+  <text x="966" y="456" class="small">future NCM samples</text>
+
+  <path class="wire" d="M342 392 H418"/>
+  <path class="wire" d="M860 392 H936"/>
+  <text x="302" y="624" class="copy">Next step: a manifest for path, dimensions, media type, source status, and intended surface.</text>
+</svg>

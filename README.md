@@ -12,6 +12,14 @@ Assets are separated from the main client so visual work can be reviewed and ver
 
 The repository is also a staging area for future asset pipeline work, including NCM samples and optimized media variants.
 
+## Asset Supply Chain
+
+![Asset supply chain](docs/diagrams/asset-supply-chain.svg)
+
+The asset repository is not just a bucket of images. It is the review boundary for public media that product pages, login flows, player setup, forging, and future asset tooling depend on. Keeping those files here makes large binary changes visible without mixing them into program or SDK reviews.
+
+The current structure already separates generated character references, product captures, and public media used by the site. The next professional step is a manifest that records path, dimensions, format, intended surface, source status, and whether the file is canonical or derived.
+
 ## System Principles
 
 - Assets should be inspectable and source-controlled when they are part of the public product surface.
