@@ -20,6 +20,14 @@ The asset repository is not just a bucket of images. It is the review boundary f
 
 The current structure already separates generated character references, product captures, and public media used by the site. The next professional step is a manifest that records path, dimensions, format, intended surface, source status, and whether the file is canonical or derived.
 
+## Manifest Direction
+
+![Asset manifest schema](docs/diagrams/asset-manifest-schema.svg)
+
+The repository would benefit from an explicit asset manifest. A reviewer should not need to infer whether a PNG is canonical, generated, derived, obsolete, or tied to a specific page. The manifest should record path, dimensions, media type, source status, canonical status, product surface, and derivation source.
+
+That does not need to block current asset work. It is a direction for making media review more technical and less dependent on filename memory.
+
 ## System Principles
 
 - Assets should be inspectable and source-controlled when they are part of the public product surface.

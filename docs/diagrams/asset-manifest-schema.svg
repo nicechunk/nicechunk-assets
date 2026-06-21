@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Asset manifest schema</title>
+  <desc id="desc">A diagram proposing an asset manifest schema for path, dimensions, media type, source status, canonical status, and product usage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081018"/><stop offset="1" stop-color="#15120d"/></linearGradient>
+    <style>.label{font:800 12px Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:.16em;fill:#90ff1a}.title{font:850 42px Inter,ui-sans-serif,system-ui,sans-serif;fill:#f3f8ff}.copy{font:500 17px Inter,ui-sans-serif,system-ui,sans-serif;fill:#b8c7d4}.card{fill:rgba(255,255,255,.06);stroke:rgba(255,255,255,.16);stroke-width:1.2;rx:18}.head{font:800 18px Inter,ui-sans-serif,system-ui,sans-serif;fill:#f3f8ff}.small{font:600 13px Inter,ui-sans-serif,system-ui,sans-serif;fill:#bdd0df}.mono{font:750 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#f7d98f}</style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="70" y="78" class="label">FUTURE ASSET MANIFEST</text>
+  <text x="70" y="132" class="title">A manifest turns images into inspectable assets.</text>
+  <text x="70" y="168" class="copy">The repository already stores public media; the next step is metadata that explains usage and derivation.</text>
+  <rect class="card" x="110" y="244" width="420" height="348"/><text x="144" y="292" class="head">Manifest entry</text><text x="144" y="330" class="mono">path</text><text x="144" y="360" class="mono">mediaType</text><text x="144" y="390" class="mono">width / height</text><text x="144" y="420" class="mono">sourceStatus</text><text x="144" y="450" class="mono">canonical</text><text x="144" y="480" class="mono">productSurface</text><text x="144" y="510" class="mono">derivedFrom</text>
+  <rect class="card" x="636" y="244" width="534" height="348"/><text x="670" y="292" class="head">Why it matters</text><text x="670" y="330" class="small">reviewers can see why a binary changed</text><text x="670" y="362" class="small">web pages can validate referenced filenames</text><text x="670" y="394" class="small">generated and canonical media stop blending together</text><text x="670" y="426" class="small">optimization checks can be added later</text><g transform="translate(690 476)"><rect width="74" height="74" rx="12" fill="#d9f2ff"/><rect x="96" width="74" height="74" rx="12" fill="#8fdcff"/><rect x="192" width="74" height="74" rx="12" fill="#83ff00"/></g>
+</svg>
