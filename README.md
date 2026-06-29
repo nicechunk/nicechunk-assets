@@ -4,6 +4,10 @@
 
 Public media assets, character previews, NCM samples, and visual references.
 
+## Official Links
+
+GitHub: [https://github.com/nicechunk/nicechunk-assets](https://github.com/nicechunk/nicechunk-assets)
+
 ## Project Overview
 
 This repository contains visual and media assets used by NiceChunk. It includes product imagery, player-set references, generated character art, media files, wallet icons, and NCM sample assets.
